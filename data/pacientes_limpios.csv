@@ -1,0 +1,55 @@
+id_paciente,nombre,apellido,fecha_nacimiento,genero,telefono,email,direccion,tipo_sangre,alergias,enfermedades_cronicas,fecha_registro,activo,email_valido,edad,grupo_edad
+1,Carlos,Ruiz,1985-06-15,Masculino,551-234-5678,carlos.ruiz@email.com,,Desconocido,Ninguna,Ninguna,2026-08-17 05:25:00.395283,True,True,41,Adulto
+2,Laura,Méndez,1990-03-22,Femenino,552-345-6789,laura.mendez@email.com,,Desconocido,Ninguna,Ninguna,2026-08-17 05:25:00.395283,True,True,36,Adulto Joven
+3,José,Hernández,1978-11-05,Masculino,553-456-7890,jose.hernandez@email.com,,Desconocido,Ninguna,Ninguna,2026-08-17 05:25:00.395283,True,True,47,Adulto
+4,Ana,García,1995-07-12,Femenino,554-567-8901,ana.garcia@email.com,,Desconocido,Ninguna,Ninguna,2026-08-17 05:25:00.395283,True,True,31,Adulto Joven
+5,Paciente1,Apellido1,1997-10-15,Masculino,550-322-9833,paciente1@email.com,,O+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,28,Adulto Joven
+6,Paciente2,Apellido2,1996-04-15,Masculino,550-646-9853,paciente2@email.com,,B-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,30,Adulto Joven
+7,Paciente3,Apellido3,1984-10-31,Femenino,550-481-6158,paciente3@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,41,Adulto
+8,Paciente4,Apellido4,2010-09-03,Masculino,550-884-5863,paciente4@email.com,,B-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,15,Adolescente
+9,Paciente5,Apellido5,1974-12-13,Masculino,550-284-0220,paciente5@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,51,Adulto
+10,Paciente6,Apellido6,1970-06-10,Femenino,550-020-2854,paciente6@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,56,Adulto
+11,Paciente7,Apellido7,1983-02-17,Femenino,550-181-3434,paciente7@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,43,Adulto
+12,Paciente8,Apellido8,2005-05-12,Femenino,550-495-1561,paciente8@email.com,,O+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,21,Adulto Joven
+13,Paciente9,Apellido9,2008-05-29,Masculino,550-563-3264,paciente9@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,18,Adolescente
+14,Paciente10,Apellido10,2022-08-15,Femenino,550-574-6425,paciente10@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,4,Niño
+15,Paciente11,Apellido11,2009-03-14,Masculino,550-373-7947,paciente11@email.com,,O+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,17,Adolescente
+16,Paciente12,Apellido12,1976-06-16,Femenino,550-162-5702,paciente12@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,50,Adulto
+17,Paciente13,Apellido13,1997-11-08,Femenino,550-600-4143,paciente13@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,28,Adulto Joven
+18,Paciente14,Apellido14,2017-06-30,Femenino,550-104-4435,paciente14@email.com,,AB+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,9,Niño
+19,Paciente15,Apellido15,2002-10-07,Femenino,550-397-9667,paciente15@email.com,,AB+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,23,Adulto Joven
+20,Paciente16,Apellido16,1956-07-05,Masculino,550-709-9124,paciente16@email.com,,AB+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,70,Adulto Mayor
+21,Paciente17,Apellido17,1981-05-31,Masculino,550-292-2685,paciente17@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,45,Adulto
+22,Paciente18,Apellido18,1950-11-26,Femenino,550-896-4466,paciente18@email.com,,O+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,75,Adulto Mayor
+23,Paciente19,Apellido19,2012-09-16,Masculino,550-505-1797,paciente19@email.com,,B-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,13,Adolescente
+24,Paciente20,Apellido20,1978-02-11,Masculino,550-612-5362,paciente20@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,48,Adulto
+25,Paciente21,Apellido21,2015-03-24,Masculino,550-268-9835,paciente21@email.com,,A+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,11,Niño
+26,Paciente22,Apellido22,1972-05-04,Masculino,550-176-4208,paciente22@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,54,Adulto
+27,Paciente23,Apellido23,1947-05-02,Masculino,550-297-8958,paciente23@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,79,Adulto Mayor
+28,Paciente24,Apellido24,2006-06-01,Femenino,550-436-3191,paciente24@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,20,Adulto Joven
+29,Paciente25,Apellido25,2022-12-06,Femenino,550-704-3245,paciente25@email.com,,AB+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,3,Niño
+30,Paciente26,Apellido26,1984-01-17,Masculino,550-465-3280,paciente26@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,42,Adulto
+31,Paciente27,Apellido27,1978-05-15,Femenino,550-460-8979,paciente27@email.com,,A+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,48,Adulto
+32,Paciente28,Apellido28,1961-12-01,Masculino,550-785-1484,paciente28@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,64,Adulto
+33,Paciente29,Apellido29,2003-08-17,Femenino,550-000-0677,paciente29@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,23,Adulto Joven
+34,Paciente30,Apellido30,1986-09-13,Masculino,550-519-4007,paciente30@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,39,Adulto Joven
+35,Paciente31,Apellido31,2014-05-12,Masculino,550-610-8325,paciente31@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,12,Niño
+36,Paciente32,Apellido32,1957-11-19,Masculino,550-759-2990,paciente32@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,68,Adulto Mayor
+37,Paciente33,Apellido33,1963-10-25,Masculino,550-627-7012,paciente33@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,62,Adulto
+38,Paciente34,Apellido34,1949-08-12,Femenino,550-758-2473,paciente34@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,77,Adulto Mayor
+39,Paciente35,Apellido35,1973-04-24,Femenino,550-488-6887,paciente35@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,53,Adulto
+40,Paciente36,Apellido36,1961-09-28,Masculino,550-279-1189,paciente36@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,64,Adulto
+41,Paciente37,Apellido37,1994-08-15,Masculino,550-051-7968,paciente37@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,32,Adulto Joven
+42,Paciente38,Apellido38,1969-03-04,Femenino,550-854-0130,paciente38@email.com,,A+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,57,Adulto
+43,Paciente39,Apellido39,2013-12-12,Femenino,550-229-9244,paciente39@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,12,Niño
+44,Paciente40,Apellido40,1991-07-30,Femenino,550-783-4334,paciente40@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,35,Adulto Joven
+45,Paciente41,Apellido41,1986-08-24,Masculino,550-630-6562,paciente41@email.com,,A+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,40,Adulto Joven
+46,Paciente42,Apellido42,1996-06-19,Femenino,550-498-4737,paciente42@email.com,,O+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,30,Adulto Joven
+47,Paciente43,Apellido43,1984-03-16,Femenino,550-878-4352,paciente43@email.com,,AB-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,42,Adulto
+48,Paciente44,Apellido44,1956-12-20,Masculino,550-824-9802,paciente44@email.com,,A-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,69,Adulto Mayor
+49,Paciente45,Apellido45,1990-11-08,Femenino,550-279-5583,paciente45@email.com,,B-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,35,Adulto Joven
+50,Paciente46,Apellido46,1957-08-27,Masculino,550-740-5228,paciente46@email.com,,O-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,69,Adulto Mayor
+51,Paciente47,Apellido47,2025-10-10,Femenino,550-645-5684,paciente47@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,0,
+52,Paciente48,Apellido48,1997-02-20,Masculino,550-136-3399,paciente48@email.com,,B+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,29,Adulto Joven
+53,Paciente49,Apellido49,2016-06-03,Femenino,550-359-8142,paciente49@email.com,,B-,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,10,Niño
+54,Paciente50,Apellido50,1990-03-23,Femenino,550-468-2944,paciente50@email.com,,A+,Ninguna,Ninguna,2026-08-17 05:30:04.114511,True,True,36,Adulto Joven

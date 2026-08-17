@@ -1,0 +1,201 @@
+id_cita,id_paciente,id_medico,id_consultorio,fecha_hora,duracion,estado,motivo,fecha_registro,fecha_cancelacion,motivo_cancelacion,paciente_nombre,paciente_apellido,medico_nombre,medico_apellido,fecha,hora,dia_semana
+1,19,6,,2026-09-14 02:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-14,2,Monday
+2,19,6,,2026-09-15 11:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,11,Tuesday
+3,19,6,,2026-08-31 09:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,9,Monday
+4,19,6,,2026-09-13 07:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,7,Sunday
+5,19,6,,2026-09-11 04:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,4,Friday
+6,19,6,,2026-09-08 04:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,4,Tuesday
+7,19,6,,2026-09-02 04:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,4,Wednesday
+8,19,6,,2026-09-13 05:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,5,Sunday
+9,19,6,,2026-09-15 05:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,5,Tuesday
+10,19,6,,2026-08-31 00:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,0,Monday
+11,19,6,,2026-08-20 04:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,4,Thursday
+12,19,6,,2026-08-22 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,9,Saturday
+13,19,6,,2026-09-07 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,9,Monday
+14,19,6,,2026-08-18 04:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,4,Tuesday
+15,19,6,,2026-09-11 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,9,Friday
+16,19,6,,2026-08-19 05:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,5,Wednesday
+17,19,6,,2026-08-20 03:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,3,Thursday
+18,19,6,,2026-09-04 05:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-04,5,Friday
+19,19,6,,2026-08-26 06:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-26,6,Wednesday
+20,19,6,,2026-08-21 10:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,10,Friday
+21,19,6,,2026-09-02 11:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,11,Wednesday
+22,19,6,,2026-09-09 02:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,2,Wednesday
+23,19,6,,2026-09-03 09:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,9,Thursday
+24,19,6,,2026-09-12 04:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,4,Saturday
+25,19,6,,2026-08-19 12:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,12,Wednesday
+26,19,6,,2026-08-17 05:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-17,5,Monday
+27,19,6,,2026-08-23 06:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,6,Sunday
+28,19,6,,2026-09-13 11:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,11,Sunday
+29,19,6,,2026-09-01 01:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,1,Tuesday
+30,19,6,,2026-09-08 02:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,2,Tuesday
+31,19,6,,2026-08-25 01:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-25,1,Tuesday
+32,19,6,,2026-08-31 08:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,8,Monday
+33,19,6,,2026-08-29 05:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-29,5,Saturday
+34,19,6,,2026-08-19 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,9,Wednesday
+35,19,6,,2026-09-06 05:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,5,Sunday
+36,19,6,,2026-08-19 10:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,10,Wednesday
+37,19,6,,2026-09-07 06:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,6,Monday
+38,19,6,,2026-08-25 11:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-25,11,Tuesday
+39,19,6,,2026-08-30 05:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,5,Sunday
+40,19,6,,2026-09-06 06:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,6,Sunday
+41,19,6,,2026-08-29 07:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-29,7,Saturday
+42,19,6,,2026-08-21 07:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,7,Friday
+43,19,6,,2026-08-22 10:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,10,Saturday
+44,19,6,,2026-08-27 10:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-27,10,Thursday
+45,19,6,,2026-09-07 05:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,5,Monday
+46,19,6,,2026-09-10 11:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-10,11,Thursday
+47,19,6,,2026-08-30 08:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,8,Sunday
+48,19,6,,2026-09-07 11:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,11,Monday
+49,19,6,,2026-09-02 07:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,7,Wednesday
+50,19,6,,2026-09-08 03:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,3,Tuesday
+51,19,6,,2026-09-01 01:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,1,Tuesday
+52,19,6,,2026-08-21 12:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,12,Friday
+53,19,6,,2026-09-05 08:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,8,Saturday
+54,19,6,,2026-08-22 01:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,1,Saturday
+55,19,6,,2026-08-31 03:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,3,Monday
+56,19,6,,2026-08-19 02:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,2,Wednesday
+57,19,6,,2026-09-09 04:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,4,Wednesday
+58,19,6,,2026-09-05 09:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,9,Saturday
+59,19,6,,2026-08-18 03:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,3,Tuesday
+60,19,6,,2026-09-09 09:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,9,Wednesday
+61,19,6,,2026-08-28 02:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,2,Friday
+62,19,6,,2026-08-26 01:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-26,1,Wednesday
+63,19,6,,2026-09-03 02:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,2,Thursday
+64,19,6,,2026-09-07 03:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,3,Monday
+65,19,6,,2026-09-11 05:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,5,Friday
+66,19,6,,2026-08-30 01:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,1,Sunday
+67,19,6,,2026-08-25 00:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-25,0,Tuesday
+68,19,6,,2026-08-22 02:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,2,Saturday
+69,19,6,,2026-08-21 01:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,1,Friday
+70,19,6,,2026-09-01 08:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,8,Tuesday
+71,19,6,,2026-08-21 11:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,11,Friday
+72,19,6,,2026-09-13 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,9,Sunday
+73,19,6,,2026-08-22 10:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,10,Saturday
+74,19,6,,2026-09-03 08:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,8,Thursday
+75,19,6,,2026-09-06 04:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,4,Sunday
+76,19,6,,2026-08-20 09:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,9,Thursday
+77,19,6,,2026-09-07 05:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,5,Monday
+78,19,6,,2026-08-23 03:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,3,Sunday
+79,19,6,,2026-08-17 09:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-17,9,Monday
+80,19,6,,2026-09-07 09:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,9,Monday
+81,19,6,,2026-09-08 01:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,1,Tuesday
+82,19,6,,2026-08-30 02:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,2,Sunday
+83,19,6,,2026-09-09 11:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,11,Wednesday
+84,19,6,,2026-09-15 05:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,5,Tuesday
+85,19,6,,2026-08-30 02:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,2,Sunday
+86,19,6,,2026-09-04 07:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-04,7,Friday
+87,19,6,,2026-08-21 08:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,8,Friday
+88,19,6,,2026-09-11 01:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,1,Friday
+89,19,6,,2026-09-05 08:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,8,Saturday
+90,19,6,,2026-08-19 08:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,8,Wednesday
+91,19,6,,2026-09-08 03:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,3,Tuesday
+92,19,6,,2026-09-03 04:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,4,Thursday
+93,19,6,,2026-08-29 03:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-29,3,Saturday
+94,19,6,,2026-09-10 01:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-10,1,Thursday
+95,19,6,,2026-09-05 02:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,2,Saturday
+96,19,6,,2026-08-18 04:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,4,Tuesday
+97,19,6,,2026-09-08 09:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-08,9,Tuesday
+98,19,6,,2026-08-30 10:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,10,Sunday
+99,19,6,,2026-08-24 10:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,10,Monday
+100,19,6,,2026-09-13 08:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,8,Sunday
+101,19,6,,2026-08-19 00:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,0,Wednesday
+102,19,6,,2026-08-19 02:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,2,Wednesday
+103,19,6,,2026-09-13 01:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-13,1,Sunday
+104,19,6,,2026-08-24 12:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,12,Monday
+105,19,6,,2026-09-09 05:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,5,Wednesday
+106,19,6,,2026-09-15 02:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,2,Tuesday
+107,19,6,,2026-08-22 01:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,1,Saturday
+108,19,6,,2026-09-01 09:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,9,Tuesday
+109,19,6,,2026-09-03 02:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,2,Thursday
+110,19,6,,2026-09-12 10:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,10,Saturday
+111,19,6,,2026-08-28 04:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,4,Friday
+112,19,6,,2026-09-15 10:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,10,Tuesday
+113,19,6,,2026-08-23 09:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,9,Sunday
+114,19,6,,2026-09-01 00:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,0,Tuesday
+115,19,6,,2026-08-29 06:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-29,6,Saturday
+116,19,6,,2026-09-03 07:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,7,Thursday
+117,19,6,,2026-09-12 02:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,2,Saturday
+118,19,6,,2026-09-07 10:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,10,Monday
+119,19,6,,2026-08-28 05:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,5,Friday
+120,19,6,,2026-09-04 08:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-04,8,Friday
+121,19,6,,2026-08-24 05:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,5,Monday
+122,19,6,,2026-09-06 01:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,1,Sunday
+123,19,6,,2026-08-27 05:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-27,5,Thursday
+124,19,6,,2026-09-02 06:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,6,Wednesday
+125,19,6,,2026-09-14 04:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-14,4,Monday
+126,19,6,,2026-08-20 12:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,12,Thursday
+127,19,6,,2026-09-14 01:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-14,1,Monday
+128,19,6,,2026-08-23 10:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,10,Sunday
+129,19,6,,2026-08-19 01:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,1,Wednesday
+130,19,6,,2026-08-18 09:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,9,Tuesday
+131,19,6,,2026-09-11 00:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,0,Friday
+132,19,6,,2026-08-28 10:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,10,Friday
+133,19,6,,2026-08-25 12:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-25,12,Tuesday
+134,19,6,,2026-09-15 04:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,4,Tuesday
+135,19,6,,2026-08-21 05:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,5,Friday
+136,19,6,,2026-08-23 07:00:00,30,Cancelada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,7,Sunday
+137,19,6,,2026-08-20 11:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,11,Thursday
+138,19,6,,2026-08-22 09:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,9,Saturday
+139,19,6,,2026-08-23 10:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,10,Sunday
+140,19,6,,2026-08-31 10:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,10,Monday
+141,19,6,,2026-09-07 03:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-07,3,Monday
+142,19,6,,2026-08-28 08:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,8,Friday
+143,19,6,,2026-08-18 06:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,6,Tuesday
+144,19,6,,2026-09-02 06:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,6,Wednesday
+145,19,6,,2026-08-21 10:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-21,10,Friday
+146,19,6,,2026-09-12 09:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,9,Saturday
+147,19,6,,2026-08-20 06:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,6,Thursday
+148,19,6,,2026-08-26 01:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-26,1,Wednesday
+149,19,6,,2026-08-23 04:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-23,4,Sunday
+150,19,6,,2026-09-04 10:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-04,10,Friday
+151,19,6,,2026-09-03 00:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,0,Thursday
+152,19,6,,2026-09-06 08:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,8,Sunday
+153,19,6,,2026-08-22 04:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,4,Saturday
+154,19,6,,2026-09-06 12:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,12,Sunday
+155,19,6,,2026-09-01 01:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,1,Tuesday
+156,19,6,,2026-09-11 04:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-11,4,Friday
+157,19,6,,2026-09-06 05:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-06,5,Sunday
+158,19,6,,2026-09-05 07:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,7,Saturday
+159,19,6,,2026-08-24 11:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,11,Monday
+160,19,6,,2026-09-03 09:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,9,Thursday
+161,19,6,,2026-09-15 09:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,9,Tuesday
+162,19,6,,2026-09-01 11:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,11,Tuesday
+163,19,6,,2026-09-16 06:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-16,6,Wednesday
+164,19,6,,2026-08-17 03:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-17,3,Monday
+165,19,6,,2026-08-27 02:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-27,2,Thursday
+166,19,6,,2026-08-31 07:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,7,Monday
+167,19,6,,2026-08-20 01:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,1,Thursday
+168,19,6,,2026-09-16 11:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-16,11,Wednesday
+169,19,6,,2026-08-27 10:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-27,10,Thursday
+170,19,6,,2026-08-31 04:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,4,Monday
+171,19,6,,2026-09-12 06:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,6,Saturday
+172,19,6,,2026-09-15 01:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-15,1,Tuesday
+173,19,6,,2026-08-24 01:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,1,Monday
+174,19,6,,2026-08-27 08:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-27,8,Thursday
+175,19,6,,2026-09-05 08:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-05,8,Saturday
+176,19,6,,2026-08-22 07:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-22,7,Saturday
+177,19,6,,2026-09-02 08:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,8,Wednesday
+178,19,6,,2026-08-28 07:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,7,Friday
+179,19,6,,2026-08-30 08:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-30,8,Sunday
+180,19,6,,2026-09-01 09:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,9,Tuesday
+181,19,6,,2026-08-29 11:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-29,11,Saturday
+182,19,6,,2026-09-03 05:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-03,5,Thursday
+183,19,6,,2026-08-18 05:00:00,30,Programada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,5,Tuesday
+184,19,6,,2026-08-18 06:00:00,30,Atendida,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,6,Tuesday
+185,19,6,,2026-09-12 00:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-12,0,Saturday
+186,19,6,,2026-09-02 09:00:00,30,Cancelada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-02,9,Wednesday
+187,19,6,,2026-08-24 09:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-24,9,Monday
+188,19,6,,2026-08-25 09:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-25,9,Tuesday
+189,19,6,,2026-08-26 04:00:00,30,Programada,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-26,4,Wednesday
+190,19,6,,2026-08-19 04:00:00,30,Programada,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,4,Wednesday
+191,19,6,,2026-08-18 05:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-18,5,Tuesday
+192,19,6,,2026-08-20 06:00:00,30,Atendida,Consulta general,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,6,Thursday
+193,19,6,,2026-09-14 10:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-14,10,Monday
+194,19,6,,2026-09-09 02:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,2,Wednesday
+195,19,6,,2026-08-31 07:00:00,30,Cancelada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-31,7,Monday
+196,19,6,,2026-08-19 08:00:00,30,Atendida,Dolor crónico,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-19,8,Wednesday
+197,19,6,,2026-09-01 10:00:00,30,Atendida,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-01,10,Tuesday
+198,19,6,,2026-08-28 08:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-28,8,Friday
+199,19,6,,2026-08-20 07:00:00,30,Cancelada,Control,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-08-20,7,Thursday
+200,19,6,,2026-09-09 01:00:00,30,Programada,Urgencia,2026-08-17 05:30:04.114511,,,Paciente15,Apellido15,Laura,González,2026-09-09,1,Wednesday
