@@ -517,7 +517,7 @@ def dashboard_general():
         st.plotly_chart(fig, use_container_width=True)
     
     with col2:
-        st.markdown("#### ⏰ Horas de mayor saturación")
+        st.markdown("#### Horas de mayor saturación")
         st.markdown("""
         <div class="chart-description" style="font-size:0.8rem;">
             <strong>Distribución de pacientes por hora</strong> · Identifica los horarios pico para 
@@ -549,7 +549,7 @@ def dashboard_general():
         st.plotly_chart(fig, use_container_width=True)
     
     with col3:
-        st.markdown("#### 🔬 Diagnósticos más frecuentes")
+        st.markdown("#### Diagnósticos más frecuentes")
         st.markdown("""
         <div class="chart-description" style="font-size:0.8rem;">
             <strong>Top 5 diagnósticos</strong> · Identifica las enfermedades más comunes para 
@@ -579,7 +579,7 @@ def dashboard_general():
 def modulo_pacientes():
     st.markdown('<div class="section-title"><i class="fas fa-users"></i> Gestión de Pacientes</div>', unsafe_allow_html=True)
     
-    tab1, tab2, tab3 = st.tabs(["📋 Lista de Pacientes", "➕ Registrar Paciente", "🔍 Buscar"])
+    tab1, tab2, tab3 = st.tabs(["Lista de Pacientes", "Registrar Paciente", "Buscar"])
     
     with tab1:
         lista = pacientes.listar_todos()
@@ -619,7 +619,7 @@ def modulo_pacientes():
                 alergias = st.text_area("Alergias")
                 enfermedades = st.text_area("Enfermedades Crónicas")
             
-            submitted = st.form_submit_button("💾 Registrar Paciente", use_container_width=True)
+            submitted = st.form_submit_button("Registrar Paciente", use_container_width=True)
             if submitted:
                 if not nombre or not apellido or not fecha_nac:
                     st.error("Completa los campos obligatorios (*)")
@@ -633,11 +633,11 @@ def modulo_pacientes():
                             None, None,
                             alergias if alergias else None
                         ))
-                        st.success(f"✅ Paciente {nombre} {apellido} registrado!")
+                        st.success(f"Paciente {nombre} {apellido} registrado!")
                         st.balloons()
                         st.rerun()
                     except Exception as e:
-                        st.error(f"❌ Error: {e}")
+                        st.error(f"Error: {e}")
 
 # ============================================================
 # MÓDULO: MÉDICOS
@@ -646,7 +646,7 @@ def modulo_pacientes():
 def modulo_medicos():
     st.markdown('<div class="section-title"><i class="fas fa-user-md"></i> Gestión de Médicos</div>', unsafe_allow_html=True)
     
-    tab1, tab2 = st.tabs(["📋 Lista de Médicos", "➕ Registrar Médico"])
+    tab1, tab2 = st.tabs(["Lista de Médicos", "Registrar Médico"])
     
     with tab1:
         lista = medicos.listar_todos()
@@ -668,11 +668,11 @@ def modulo_citas():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.markdown("#### 📋 Agenda de Citas")
+        st.markdown("#### Agenda de Citas")
         st.markdown("""
         <div class="chart-description">
             <strong>Listado de citas programadas</strong> · Visualiza todas las citas agendadas con 
-            su estado actual. <strong>Estados:</strong> 🟢 Programada · 🟡 Atendida · 🔴 Cancelada
+            su estado actual. <strong>Estados:</strong> Programada · Atendida · Cancelada
         </div>
         """, unsafe_allow_html=True)
         
@@ -686,7 +686,7 @@ def modulo_citas():
             st.info("No hay citas programadas")
     
     with col2:
-        st.markdown("#### 🆕 Agendar Cita")
+        st.markdown("#### Agendar Cita")
         with st.form("form_cita"):
             pacientes_list = pacientes.listar_todos()
             medicos_list = medicos.listar_todos()
@@ -714,10 +714,10 @@ def modulo_citas():
                             'estado': 'Programada',
                             'motivo': motivo
                         })
-                        st.success("✅ Cita agendada!")
+                        st.success("Cita agendada!")
                         st.rerun()
                     except Exception as e:
-                        st.error(f"❌ Error: {e}")
+                        st.error(f"Error: {e}")
                 else:
                     st.error("Selecciona paciente y médico")
 
@@ -731,7 +731,7 @@ def modulo_consultas():
     fecha_ini, fecha_fin = get_fechas()
     
     # Gráfica de consultas
-    st.markdown("#### 📊 Distribución de Consultas")
+    st.markdown("#### Distribución de Consultas")
     consultas_list = consultas.obtener_consultas_por_fecha(fecha_ini, fecha_fin)
     
     if consultas_list and len(consultas_list) > 0:
@@ -770,7 +770,7 @@ def modulo_diagnosticos():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 🔬 Diagnósticos más frecuentes")
+        st.markdown("#### Diagnósticos más frecuentes")
         diagnosticos_list = diagnosticos.obtener_diagnosticos_frecuentes(fecha_ini, fecha_fin, 10)
         
         if diagnosticos_list and len(diagnosticos_list) > 0:
@@ -795,7 +795,7 @@ def modulo_tratamientos():
     
     fecha_ini, fecha_fin = get_fechas()
     
-    st.markdown("#### 💊 Medicamentos más recetados")
+    st.markdown("#### Medicamentos más recetados")
     medicamentos_list = tratamientos.obtener_medicamentos_mas_usados(fecha_ini, fecha_fin)
     
     if medicamentos_list and len(medicamentos_list) > 0:
@@ -834,7 +834,7 @@ def modulo_hospitalizacion():
         st.metric("Pacientes Activos", camas_ocupadas)
     
     # Ingresos activos
-    st.markdown("#### 📋 Ingresos Activos")
+    st.markdown("#### Ingresos Activos")
     ingresos = hospitalizacion.listar_ingresos_activos()
     if ingresos and len(ingresos) > 0:
         df = pd.DataFrame(ingresos)
@@ -854,7 +854,7 @@ def modulo_reportes_ml():
     
     st.markdown("""
     <div class="chart-description" style="background: #e3f2fd; border-left-color: #0d47a1;">
-        <strong>🤖 Análisis Predictivo</strong> · Modelos entrenados con datos históricos 
+        <strong>Análisis Predictivo</strong> · Modelos entrenados con datos históricos 
         para apoyar la toma de decisiones clínicas y administrativas.
     </div>
     """, unsafe_allow_html=True)
@@ -862,21 +862,21 @@ def modulo_reportes_ml():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 🎯 Predicción de Riesgo de Reingreso")
+        st.markdown("#### Predicción de Riesgo de Reingreso")
         st.markdown("""
         **Modelo:** Random Forest Classifier  
         **Precisión:** 94.7%  
         
         **Variables más importantes:**
-        - 📊 Número de consultas previas (38.2%)
-        - 📅 Edad (24.7%)
-        - 🏥 Días de estancia (18.5%)
-        - 🔬 Número de diagnósticos (12.1%)
-        - 💊 Comorbilidades (6.5%)
+        - Número de consultas previas (38.2%)
+        - Edad (24.7%)
+        - Días de estancia (18.5%)
+        - Número de diagnósticos (12.1%)
+        - Comorbilidades (6.5%)
         """)
         
         # Simulador
-        st.markdown("#### 🧪 Simulador de Riesgo")
+        st.markdown("#### Simulador de Riesgo")
         edad = st.slider("Edad", 0, 100, 50, key="ml_edad")
         consultas_prev = st.slider("Consultas previas (último año)", 0, 20, 5, key="ml_consultas")
         estancia = st.slider("Días de estancia", 0, 30, 5, key="ml_estancia")
@@ -889,13 +889,13 @@ def modulo_reportes_ml():
         <div style="background: {color}15; padding: 1.5rem; border-radius: 12px; border: 2px solid {color};">
             <h3 style="color: {color}; margin: 0;">Riesgo de Reingreso: {riesgo:.1f}%</h3>
             <p style="margin: 0.5rem 0 0 0; font-weight: 500;">
-                {'🟢 Bajo Riesgo' if riesgo < 30 else '🟡 Riesgo Moderado' if riesgo < 60 else '🔴 Alto Riesgo'}
+                {'Bajo Riesgo' if riesgo < 30 else 'Riesgo Moderado' if riesgo < 60 else 'Alto Riesgo'}
             </p>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
-        st.markdown("#### 📈 Predicción de Estancia")
+        st.markdown("####Predicción de Estancia")
         st.markdown("""
         **Modelo:** Regresión Lineal Múltiple  
         **R²:** 0.857 · **RMSE:** 2.3 días  
@@ -922,15 +922,15 @@ def modulo_reportes_ml():
         st.plotly_chart(fig, use_container_width=True)
         
         # Segmentación
-        st.markdown("#### 🔬 Segmentación de Pacientes")
+        st.markdown("#### Segmentación de Pacientes")
         st.markdown("""
         **Modelo:** K-Means Clustering (K=3)  
         **Silhouette Score:** 0.5646  
         
         **Perfiles identificados:**
-        - 🟢 **Bajo Riesgo** - Joven saludable (35%)
-        - 🟡 **Riesgo Moderado** - Seguimiento estándar (42%)
-        - 🔴 **Alto Riesgo** - Paciente crónico (23%)
+        - **Bajo Riesgo** - Joven saludable (35%)
+        - **Riesgo Moderado** - Seguimiento estándar (42%)
+        - **Alto Riesgo** - Paciente crónico (23%)
         """)
 
 # ============================================================
