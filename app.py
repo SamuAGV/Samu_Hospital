@@ -248,6 +248,11 @@ st.markdown("""
         color: #e65100;
         border: 1px solid #ffcc80;
     }
+    
+    /* ===== ESTILOS PARA SIMULADOR ===== */
+    .risk-low { background: #4caf50; }
+    .risk-moderate { background: #ff9800; }
+    .risk-high { background: #f44336; }
 </style>
 
 <!-- Font Awesome para iconos profesionales -->
@@ -375,15 +380,15 @@ with st.sidebar:
     modulo = st.radio(
         "Seleccionar vista",
         options=[
-            "🏠 Dashboard General",
-            "👤 Pacientes",
-            "👨‍⚕️ Médicos",
-            "📅 Citas",
-            "🩺 Consultas",
-            "🔬 Diagnósticos",
-            "💊 Tratamientos",
-            "🏥 Hospitalización",
-            "🧠 Reportes ML"
+            "Dashboard General",
+            "Pacientes",
+            "Médicos",
+            "Citas",
+            "Consultas",
+            "Diagnósticos",
+            "Tratamientos",
+            "Hospitalización",
+            "Reportes ML"
         ],
         index=0
     )
@@ -407,23 +412,23 @@ with st.sidebar:
     
     # Estado de conexión
     if db.connected:
-        st.success("✅ Conectado a Supabase")
+        st.success("Conectado a Supabase")
     else:
-        st.error("❌ Sin conexión")
+        st.error("Sin conexión")
     
     # Estado de modelos ML
     st.markdown("---")
     st.markdown("### <i class='fas fa-brain'></i> Modelos ML")
     
     if modelos_cargados['supervisor']:
-        st.markdown('<div class="model-status loaded">✅ Modelos Supervisados</div>', unsafe_allow_html=True)
+        st.markdown('<div class="model-status loaded">Modelos Supervisados</div>', unsafe_allow_html=True)
     else:
-        st.markdown('<div class="model-status not-loaded">⚠️ Modelos Supervisados no cargados</div>', unsafe_allow_html=True)
+        st.markdown('<div class="model-status not-loaded">Modelos Supervisados no cargados</div>', unsafe_allow_html=True)
     
     if modelos_cargados['no_supervisor']:
-        st.markdown('<div class="model-status loaded">✅ Modelos No Supervisados</div>', unsafe_allow_html=True)
+        st.markdown('<div class="model-status loaded">Modelos No Supervisados</div>', unsafe_allow_html=True)
     else:
-        st.markdown('<div class="model-status not-loaded">⚠️ Modelos No Supervisados no cargados</div>', unsafe_allow_html=True)
+        st.markdown('<div class="model-status not-loaded">Modelos No Supervisados no cargados</div>', unsafe_allow_html=True)
 
 # ============================================================
 # FUNCIÓN: OBTENER DATOS CON FILTROS
@@ -448,7 +453,7 @@ def dashboard_general():
     diagnosticos_frec = diagnosticos.obtener_diagnosticos_frecuentes(fecha_ini, fecha_fin, 5)
     
     # ===== FILA 1: MÉTRICAS PRINCIPALES =====
-    st.markdown("### 📊 Indicadores Clave")
+    st.markdown("### Indicadores Clave")
     
     col1, col2, col3, col4 = st.columns(4)
     
@@ -515,7 +520,7 @@ def dashboard_general():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 📈 Demanda de Servicios")
+        st.markdown("#### Demanda de Servicios")
         st.markdown("""
         <div class="chart-description">
             <strong>Evolución diaria de consultas</strong> · Muestra el volumen de atenciones médicas por día, 
@@ -559,7 +564,7 @@ def dashboard_general():
             st.info("No hay datos de demanda para el período seleccionado")
     
     with col2:
-        st.markdown("#### 🏥 Ocupación Hospitalaria")
+        st.markdown("#### Ocupación Hospitalaria")
         st.markdown("""
         <div class="chart-description">
             <strong>Medidor de ocupación de camas</strong> · Visualiza el porcentaje de camas ocupadas en el hospital. 
@@ -600,12 +605,12 @@ def dashboard_general():
     
     # ===== FILA 3: ANÁLISIS AVANZADO =====
     st.markdown("---")
-    st.markdown("### 🔍 Análisis Avanzado")
+    st.markdown("### Análisis Avanzado")
     
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown("#### 🏥 Especialidades más demandadas")
+        st.markdown("#### Especialidades más demandadas")
         st.markdown("""
         <div class="chart-description" style="font-size:0.8rem;">
             <strong>Distribución de consultas por especialidad</strong> · Identifica qué áreas médicas 
@@ -637,7 +642,7 @@ def dashboard_general():
         st.plotly_chart(fig, use_container_width=True)
     
     with col2:
-        st.markdown("#### ⏰ Horas de mayor saturación")
+        st.markdown("#### Horas de mayor saturación")
         st.markdown("""
         <div class="chart-description" style="font-size:0.8rem;">
             <strong>Distribución de pacientes por hora</strong> · Identifica los horarios pico para 
@@ -669,7 +674,7 @@ def dashboard_general():
         st.plotly_chart(fig, use_container_width=True)
     
     with col3:
-        st.markdown("#### 🔬 Diagnósticos más frecuentes")
+        st.markdown("#### Diagnósticos más frecuentes")
         st.markdown("""
         <div class="chart-description" style="font-size:0.8rem;">
             <strong>Top 5 diagnósticos</strong> · Identifica las enfermedades más comunes para 
@@ -699,7 +704,7 @@ def dashboard_general():
 def modulo_pacientes():
     st.markdown('<div class="section-title"><i class="fas fa-users"></i> Gestión de Pacientes</div>', unsafe_allow_html=True)
     
-    tab1, tab2, tab3 = st.tabs(["📋 Lista de Pacientes", "➕ Registrar Paciente", "🔍 Buscar"])
+    tab1, tab2, tab3 = st.tabs(["Lista de Pacientes", "Registrar Paciente", "Buscar"])
     
     with tab1:
         lista = pacientes.listar_todos()
@@ -739,7 +744,7 @@ def modulo_pacientes():
                 alergias = st.text_area("Alergias")
                 enfermedades = st.text_area("Enfermedades Crónicas")
             
-            submitted = st.form_submit_button("💾 Registrar Paciente", use_container_width=True)
+            submitted = st.form_submit_button("Registrar Paciente", use_container_width=True)
             if submitted:
                 if not nombre or not apellido or not fecha_nac:
                     st.error("Completa los campos obligatorios (*)")
@@ -753,11 +758,11 @@ def modulo_pacientes():
                             None, None,
                             alergias if alergias else None
                         ))
-                        st.success(f"✅ Paciente {nombre} {apellido} registrado!")
+                        st.success("Paciente registrado correctamente")
                         st.balloons()
                         st.rerun()
                     except Exception as e:
-                        st.error(f"❌ Error: {e}")
+                        st.error(f"Error: {e}")
     
     with tab3:
         st.markdown("#### Buscar Pacientes")
@@ -777,7 +782,7 @@ def modulo_pacientes():
 def modulo_medicos():
     st.markdown('<div class="section-title"><i class="fas fa-user-md"></i> Gestión de Médicos</div>', unsafe_allow_html=True)
     
-    tab1, tab2 = st.tabs(["📋 Lista de Médicos", "➕ Registrar Médico"])
+    tab1, tab2 = st.tabs(["Lista de Médicos", "Registrar Médico"])
     
     with tab1:
         lista = medicos.listar_todos()
@@ -811,11 +816,11 @@ def modulo_citas():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.markdown("#### 📋 Agenda de Citas")
+        st.markdown("#### Agenda de Citas")
         st.markdown("""
         <div class="chart-description">
             <strong>Listado de citas programadas</strong> · Visualiza todas las citas agendadas con 
-            su estado actual. <strong>Estados:</strong> 🟢 Programada · 🟡 Atendida · 🔴 Cancelada
+            su estado actual. <strong>Estados:</strong> Programada · Atendida · Cancelada
         </div>
         """, unsafe_allow_html=True)
         
@@ -829,7 +834,7 @@ def modulo_citas():
             st.info("No hay citas programadas")
     
     with col2:
-        st.markdown("#### 🆕 Agendar Cita")
+        st.markdown("#### Agendar Cita")
         with st.form("form_cita"):
             pacientes_list = pacientes.listar_todos()
             medicos_list = medicos.listar_todos()
@@ -845,7 +850,7 @@ def modulo_citas():
             hora = st.time_input("Hora")
             motivo = st.text_area("Motivo")
             
-            submitted = st.form_submit_button("📌 Agendar Cita", use_container_width=True)
+            submitted = st.form_submit_button("Agendar Cita", use_container_width=True)
             if submitted:
                 if paciente != "No hay pacientes" and medico != "No hay médicos":
                     try:
@@ -857,10 +862,10 @@ def modulo_citas():
                             'estado': 'Programada',
                             'motivo': motivo
                         })
-                        st.success("✅ Cita agendada!")
+                        st.success("Cita agendada correctamente")
                         st.rerun()
                     except Exception as e:
-                        st.error(f"❌ Error: {e}")
+                        st.error(f"Error: {e}")
                 else:
                     st.error("Selecciona paciente y médico")
 
@@ -874,7 +879,7 @@ def modulo_consultas():
     fecha_ini, fecha_fin = get_fechas()
     
     # Gráfica de consultas
-    st.markdown("#### 📊 Distribución de Consultas")
+    st.markdown("#### Distribución de Consultas")
     consultas_list = consultas.obtener_consultas_por_fecha(fecha_ini, fecha_fin)
     
     if consultas_list and len(consultas_list) > 0:
@@ -913,7 +918,7 @@ def modulo_diagnosticos():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 🔬 Diagnósticos más frecuentes")
+        st.markdown("#### Diagnósticos más frecuentes")
         diagnosticos_list = diagnosticos.obtener_diagnosticos_frecuentes(fecha_ini, fecha_fin, 10)
         
         if diagnosticos_list and len(diagnosticos_list) > 0:
@@ -930,7 +935,7 @@ def modulo_diagnosticos():
             st.info("No hay diagnósticos registrados")
     
     with col2:
-        st.markdown("#### 📈 Evolución de Diagnósticos")
+        st.markdown("#### Evolución de Diagnósticos")
         st.info("Gráfica de evolución temporal en desarrollo...")
 
 # ============================================================
@@ -942,7 +947,7 @@ def modulo_tratamientos():
     
     fecha_ini, fecha_fin = get_fechas()
     
-    st.markdown("#### 💊 Medicamentos más recetados")
+    st.markdown("#### Medicamentos más recetados")
     medicamentos_list = tratamientos.obtener_medicamentos_mas_usados(fecha_ini, fecha_fin)
     
     if medicamentos_list and len(medicamentos_list) > 0:
@@ -984,7 +989,7 @@ def modulo_hospitalizacion():
         st.metric("Pacientes Activos", camas_ocupadas)
     
     # Ingresos activos
-    st.markdown("#### 📋 Ingresos Activos")
+    st.markdown("#### Ingresos Activos")
     ingresos = hospitalizacion.listar_ingresos_activos()
     if ingresos and len(ingresos) > 0:
         df = pd.DataFrame(ingresos)
@@ -1004,15 +1009,15 @@ def modulo_reportes_ml():
     
     st.markdown("""
     <div class="chart-description" style="background: #e3f2fd; border-left-color: #0d47a1;">
-        <strong>🤖 Análisis Predictivo</strong> · Modelos entrenados con datos históricos 
+        <strong>Análisis Predictivo</strong> · Modelos entrenados con datos históricos 
         para apoyar la toma de decisiones clínicas y administrativas.
     </div>
     """, unsafe_allow_html=True)
     
     # Verificar estado de modelos
     if not modelos_cargados['supervisor'] or not modelos_cargados['no_supervisor']:
-        st.warning("⚠️ Los modelos de ML no están completamente cargados. Ejecuta 'python train_models.py' para entrenarlos.")
-        with st.expander("📖 ¿Cómo entrenar los modelos?"):
+        st.warning("Los modelos de ML no están completamente cargados. Ejecuta 'python train_models.py' para entrenarlos.")
+        with st.expander("¿Cómo entrenar los modelos?"):
             st.code("""
 # 1. Generar datos de prueba (opcional)
 python data/generate_seed_data.py
@@ -1027,7 +1032,7 @@ streamlit run app.py
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 🎯 Predicción de Riesgo de Reingreso")
+        st.markdown("#### Predicción de Riesgo de Reingreso")
         
         if modelos_cargados['clasificador']:
             st.markdown("""
@@ -1035,17 +1040,17 @@ streamlit run app.py
             **Precisión:** 94.7%  
             
             **Variables más importantes:**
-            - 📊 Número de consultas previas (38.2%)
-            - 📅 Edad (24.7%)
-            - 🏥 Días de estancia (18.5%)
-            - 🔬 Número de diagnósticos (12.1%)
-            - 💊 Comorbilidades (6.5%)
+            - Número de consultas previas (38.2%)
+            - Edad (24.7%)
+            - Días de estancia (18.5%)
+            - Número de diagnósticos (12.1%)
+            - Comorbilidades (6.5%)
             """)
         else:
-            st.info("⚠️ Modelo no entrenado. Usando simulador básico.")
+            st.info("Modelo no entrenado. Usando simulador básico.")
         
         # Simulador mejorado
-        st.markdown("#### 🧪 Simulador de Riesgo")
+        st.markdown("#### Simulador de Riesgo")
         edad = st.slider("Edad", 0, 100, 50, key="ml_edad")
         consultas_prev = st.slider("Consultas previas (último año)", 0, 20, 5, key="ml_consultas")
         imc = st.slider("IMC", 15, 50, 25, key="ml_imc")
@@ -1071,11 +1076,12 @@ streamlit run app.py
         
         # Mostrar resultado
         color = "#4caf50" if riesgo < 30 else "#ff9800" if riesgo < 60 else "#f44336"
+        label = "Bajo Riesgo" if riesgo < 30 else "Riesgo Moderado" if riesgo < 60 else "Alto Riesgo"
         st.markdown(f"""
         <div style="background: {color}15; padding: 1.5rem; border-radius: 12px; border: 2px solid {color};">
             <h3 style="color: {color}; margin: 0;">Riesgo de Reingreso: {riesgo:.1f}%</h3>
             <p style="margin: 0.5rem 0 0 0; font-weight: 500;">
-                {'🟢 Bajo Riesgo' if riesgo < 30 else '🟡 Riesgo Moderado' if riesgo < 60 else '🔴 Alto Riesgo'}
+                {label}
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -1085,12 +1091,12 @@ streamlit run app.py
             if modelos_cargados['regresor']:
                 estancia = supervisor.predecir_estancia(edad, consultas_prev, imc)
                 if estancia is not None:
-                    st.info(f"📊 **Estancia estimada:** {estancia:.1f} días")
+                    st.info(f"**Estancia estimada:** {estancia:.1f} días")
         except Exception as e:
             logger.error(f"Error en predicción de estancia: {e}")
     
     with col2:
-        st.markdown("#### 📈 Predicción de Estancia")
+        st.markdown("#### Predicción de Estancia")
         
         if modelos_cargados['regresor']:
             st.markdown("""
@@ -1099,7 +1105,7 @@ streamlit run app.py
             **Variables:** Edad, Comorbilidades, Tipo de ingreso
             """)
         else:
-            st.info("⚠️ Modelo no entrenado. Usando datos simulados.")
+            st.info("Modelo no entrenado. Usando datos simulados.")
         
         # Gráfica de predicción
         pred_data = {
@@ -1121,7 +1127,7 @@ streamlit run app.py
         st.plotly_chart(fig, use_container_width=True)
         
         # Segmentación de pacientes con modelo real
-        st.markdown("#### 🔬 Segmentación de Pacientes")
+        st.markdown("#### Segmentación de Pacientes")
         
         if modelos_cargados['kmeans']:
             try:
@@ -1135,53 +1141,50 @@ streamlit run app.py
                     st.markdown(f"""
                     <div style="border-left: 4px solid {perfil['color']}; padding: 0.5rem 1rem; margin: 0.5rem 0; background: #f5f5f5; border-radius: 4px;">
                         <strong style="color: {perfil['color']};">● {perfil['nombre']}</strong><br>
-                        👤 Edad: {perfil['edad']} · 📋 {perfil['consultas']}<br>
-                        📊 IMC: {perfil['imc']} · 🚻 {perfil['genero']}
+                        <i class="fas fa-user"></i> Edad: {perfil['edad']} · <i class="fas fa-file-medical"></i> {perfil['consultas']}<br>
+                        <i class="fas fa-weight"></i> IMC: {perfil['imc']} · <i class="fas fa-venus-mars"></i> {perfil['genero']}
                     </div>
                     """, unsafe_allow_html=True)
             except Exception as e:
                 logger.error(f"Error en segmentación: {e}")
                 st.markdown("""
                 **Perfiles identificados:**
-                - 🟢 **Bajo Riesgo** - Joven saludable (35%)
-                - 🟡 **Riesgo Moderado** - Seguimiento estándar (42%)
-                - 🔴 **Alto Riesgo** - Paciente crónico (23%)
-                """)
+                - <span style="color:#4caf50;">●</span> **Bajo Riesgo** - Joven saludable (35%)
+                - <span style="color:#ff9800;">●</span> **Riesgo Moderado** - Seguimiento estándar (42%)
+                - <span style="color:#f44336;">●</span> **Alto Riesgo** - Paciente crónico (23%)
+                """, unsafe_allow_html=True)
         else:
             st.markdown("""
             **Modelo:** K-Means Clustering (K=3)  
             **Silhouette Score:** 0.5646  
             
             **Perfiles identificados:**
-            - 🟢 **Bajo Riesgo** - Joven saludable (35%)
-            - 🟡 **Riesgo Moderado** - Seguimiento estándar (42%)
-            - 🔴 **Alto Riesgo** - Paciente crónico (23%)
-            """)
+            - <span style="color:#4caf50;">●</span> **Bajo Riesgo** - Joven saludable (35%)
+            - <span style="color:#ff9800;">●</span> **Riesgo Moderado** - Seguimiento estándar (42%)
+            - <span style="color:#f44336;">●</span> **Alto Riesgo** - Paciente crónico (23%)
+            """, unsafe_allow_html=True)
 
 # ============================================================
 # NAVEGACIÓN
 # ============================================================
 
-# Limpiar el nombre del módulo para la comparación
-modulo_clean = modulo.replace("🏠 ", "").replace("👤 ", "").replace("👨‍⚕️ ", "").replace("📅 ", "").replace("🩺 ", "").replace("🔬 ", "").replace("💊 ", "").replace("🏥 ", "").replace("🧠 ", "")
-
-if modulo_clean == "Dashboard General":
+if modulo == "Dashboard General":
     dashboard_general()
-elif modulo_clean == "Pacientes":
+elif modulo == "Pacientes":
     modulo_pacientes()
-elif modulo_clean == "Médicos":
+elif modulo == "Médicos":
     modulo_medicos()
-elif modulo_clean == "Citas":
+elif modulo == "Citas":
     modulo_citas()
-elif modulo_clean == "Consultas":
+elif modulo == "Consultas":
     modulo_consultas()
-elif modulo_clean == "Diagnósticos":
+elif modulo == "Diagnósticos":
     modulo_diagnosticos()
-elif modulo_clean == "Tratamientos":
+elif modulo == "Tratamientos":
     modulo_tratamientos()
-elif modulo_clean == "Hospitalización":
+elif modulo == "Hospitalización":
     modulo_hospitalizacion()
-elif modulo_clean == "Reportes ML":
+elif modulo == "Reportes ML":
     modulo_reportes_ml()
 
 # ============================================================
